@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2017, 12:54:28 PM
+    Author     : tvivaram
+*/
+
+/** Begin Header **/
+
+header {
+    background-color: #F8F8F8;
+    padding: 1.4rem 0;
+}
+
+header a, header li {
+    color: #777;
+    font-weight: bold;
+}
+
+/**End Header**/
+
+.mov-classif-heading{
+    width : 13em;
+    border-bottom: solid #5A5A5A;  
+    margin: 2em;
+}
+
+
+/**Begin Body**/
+
+
+/**End Body**/
+
+/**Begin Footer**/
+footer {
+    background-color: #191919;
+    color: #ADADAD;
+    margin-top: 3em;
+}
+
+footer h5, footer img {
+    margin-top: 5em;
+    font-weight: bold;
+}
+
+footer address {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    color: #5A5A5A;
+}
+
+footer ul {
+    margin-bottom: 5em;
+}
+
+footer address strong {
+    color: #ADADAD;
+    display: block;
+    padding-bottom: 0.62em;
+}
+
+footer a {
+    font-weight: 300;
+    color: #5A5A5A;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+/**End Footer**/
