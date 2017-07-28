@@ -22,14 +22,49 @@ header a, header li {
 
 /**End Header**/
 
+/**Begin Body**/
+
 .mov-classif-heading{
     width : 13em;
     border-bottom: solid #5A5A5A;  
     margin: 2em;
 }
 
+.mov-title-disp{
+    background-color: black;
+    color : white;
+    margin : 1em 0px;
+    padding-left: 1em;
+}
 
-/**Begin Body**/
+.padded ul li {
+  float: left; 
+  list-style: none;
+  width : 7em;
+  font-size: 45%;
+  }
+  
+.padded ul li a {
+  display: block;
+  padding: 0.5em;
+  background: #6788a7;
+  color: #fff;
+  text-decoration: none;
+}
+
+.padded ul li.active a {
+  background: #58c7d0 ;
+}
+
+.mov-time-display{
+    margin-left: 40px;
+}
+
+@media (min-width: 992px) {  
+    .padded ul li {
+      font-size: 120%;
+    }
+}
 
 
 /**End Body**/
