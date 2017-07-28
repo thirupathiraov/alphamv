@@ -33,7 +33,7 @@ header a, header li {
 .mov-title-disp{
     background-color: black;
     color : white;
-    margin : 1em 0px;
+    margin : 1em 0.5em;
     padding-left: 1em;
 }
 
