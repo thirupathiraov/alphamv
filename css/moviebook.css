@@ -60,11 +60,94 @@ header a, header li {
     margin-left: 40px;
 }
 
-@media (min-width: 992px) {  
+@media (min-width: 992px) {
+    
+    .mov-title-disp{
+        margin : 1em 0px;
+    }
+    
     .padded ul li {
       font-size: 120%;
     }
 }
+
+/**Begin For Seat Selection Screen**/
+
+.seatselscreen {
+    border: 5px solid #d5dded;
+    padding: 5px;
+    background: rgb(195, 207, 229);
+    outline: 5px solid #b5bac9;
+    box-shadow:
+        0 0 0 10px hsl(0, 0%, 80%),
+        0 0 0 15px hsl(0, 0%, 90%);
+    text-align: center;
+    color : black;
+    margin-left : 6em;
+    width : 600px;
+}
+
+.seat {
+    float: left;
+    display: block;
+    margin: 3px;
+    background: lightsteelblue;
+    width: 23px;
+    height: 20px;
+}
+
+.selected
+{
+    background: #8e4643;
+}
+
+.seat-select-color
+{
+   background: #aeb77e; 
+}
+
+.seatclassif {
+    background: none;
+}
+
+.seat-select {
+    display: none;
+}
+
+.seat-select-no-disp
+{
+    background: white;
+}
+
+.seat-select:checked+.seat {
+    background: #aeb77e;
+}
+
+.showselected{
+    background-color: #505c70;
+    margin : 1em;
+    padding : 1em;
+    color: white;
+}
+
+.showselected label {
+       color: white;
+       font-weight: normal;
+}
+
+.showselected li {
+       color: white;
+}
+
+#seats{
+    width: 1200px;
+    margin-left: 2em;
+}
+
+.seatboxlegend{
+    width:15px; height:15px;
+}
+/**End For Seat Selection Screen**/
 
 
 /**End Body**/

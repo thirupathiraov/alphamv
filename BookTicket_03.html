@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Movie Mania</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/moviebook.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <a class="pull-left" href="#">Company name</a>
+                    <ul class="list-inline list-unstyled pull-right">
+                        <li><a href="#movies">Movies</a></li>
+                        <li><a href="#theatres">Theatres</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#login">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div id="main-content" class="container">
+            <div class="showselected">
+                <div class="row">
+                    <p class="text-uppercase text-center col-sm-4">Shamanthakamani</p>
+                    <p class="text-uppercase text-center col-sm-4">Asian Lakshmikala Cinepride: Moosapet</p>
+                    <p class="text-uppercase text-center col-sm-4">Tuesday 25 Jul</p>
+                </div>                    
+                <div class="row">
+                    <form class="form-inline">
+                        <div class="form-group col-xs-6 col-sm-offset-1 col-sm-4">
+                            <label for="numtickets" class="control-label hidden-xs">Number of Tickets</label>
+                            <select class="form-control" name="numtickets" id="numtickets">
+                                <option>1</option>
+                                <option selected="selected">2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                            </select>
+                        </div> 
+                        <div class="form-group col-xs-6">
+                            <label for="showtime" class="control-label hidden-xs">Show Time</label>
+                            <select class="form-control" name="showtime" id="showtime">
+                                <option>10:00 AM</option>
+                                <option>2:00 PM</option>
+                                <option selected="selected">6:00 PM</option>
+                                <option>9:00 PM</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                </br>
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-4">
+                        <ol class="list-unstyled list-inline">
+                            <li class ="seat seatboxlegend"></li>
+                            <li>Available</li>
+                            <li class="seatboxlegend selected"></li>
+                            <li>Unavailable</li>
+                            <li class="seatboxlegend seat-select-color"></li>
+                            <li>Selected</li>
+                        </ol>
+                    </div> 
+                    <div class="col-sm-6 col-xs-12 text-right">
+                        <button type="button" class="btn btn-primary text-uppercase">Continue</button>
+                    </div>
+                </div>
+            </div>  
+            </br>
+            <div class="row">
+                <form id="ticketreservation">
+                    <section id="seats">
+                    </section>
+                </form>    
+            </div>
+            </br>
+            </br>
+            <div class="row">
+                <h4 class="seatselscreen">SCREEN</h4>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="col-sm-2">
+                    <img src="images/logo.png" class="img-responsive">
+                </div>
+                <div class="col-sm-2">
+                    <h5>The company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Movie Mania</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Social</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy police</a></li>
+                        <li><a href="#">Terms & conditions</a></li>
+                        <li><a href="#">Help desk</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <address>
+                        <strong>Name, Inc.</strong>
+                        Address line 1<br>
+                        Address line 2<br>
+                        <abbr title="Phone">P:</abbr> (40) 67244847
+                    </address>
+                </div>
+            </div>
+        </footer>
+        <script src="js/jquery-1.12.4.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/movie.js"></script>
+    </body>
+</html>
