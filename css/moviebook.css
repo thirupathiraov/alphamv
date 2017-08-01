@@ -149,6 +149,14 @@ header a, header li {
 }
 /**End For Seat Selection Screen**/
 
+/**Begin Payment Screen**/
+
+input[type=radio]:checked + label>img {
+  border: 1px solid #fff;
+  box-shadow: 0 0 3px 3px #090;
+}
+
+/**End Payment Screen**/
 
 /**End Body**/
 
