@@ -27,64 +27,13 @@ and open the template in the editor.
             </div>
         </header>
         <div id="main-content" class="container">
-            <div class="showselected">
-                <div class="row">
-                    <p class="text-uppercase text-center col-sm-4">Shamanthakamani</p>
-                    <p class="text-uppercase text-center col-sm-4">Asian Lakshmikala Cinepride: Moosapet</p>
-                    <p class="text-uppercase text-center col-sm-4">Tuesday 25 Jul</p>
-                </div>                    
-                <div class="row">
-                    <form class="form-inline">
-                        <div class="form-group col-xs-6 col-sm-offset-1 col-sm-4">
-                            <label for="numtickets" class="control-label hidden-xs">Number of Tickets</label>
-                            <select class="form-control" name="numtickets" id="numtickets">
-                                <option>1</option>
-                                <option selected="selected">2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                            </select>
-                        </div> 
-                        <div class="form-group col-xs-6">
-                            <label for="showtime" class="control-label hidden-xs">Show Time</label>
-                            <select class="form-control" name="showtime" id="showtime">
-                                <option>10:00 AM</option>
-                                <option>2:00 PM</option>
-                                <option selected="selected">6:00 PM</option>
-                                <option>9:00 PM</option>
-                            </select>
-                        </div>
-                    </form>
-                </div>
-                </br>
-                <div class="row">
-                    <div class="col-sm-offset-1 col-sm-4">
-                        <ol class="list-unstyled list-inline">
-                            <li class ="seat seatboxlegend"></li>
-                            <li>Available</li>
-                            <li class="seatboxlegend selected"></li>
-                            <li>Unavailable</li>
-                            <li class="seatboxlegend seat-select-color"></li>
-                            <li>Selected</li>
-                        </ol>
-                    </div> 
-                    <div class="col-sm-6 col-xs-12 text-right">
-                        <a href="BookTicket_04.html" class="btn btn-primary text-uppercase" role="button">Continue</a>
-                    </div>
-                </div>
-            </div>  
-            </br>
             <div class="row">
-                <form id="ticketreservation">
-                    <section id="seats">
-                    </section>
-                </form>    
-            </div>
-            </br>
-            </br>
-            <div class="row">
-                <h4 class="seatselscreen">SCREEN</h4>
+                <h2 class="text-primary">Dash Board</h2>
+                <div id="chart01"></div>
+                <h3>Percentage Of Tickets Booked</h3>
+                <h5>Asian Lakshmikala Cinepride: Moosapet  04 Aug Friday</h5>
+                <div id="chart02"></div>
+                <div id="chart03"></div>
             </div>
         </div>
         <footer>
@@ -130,6 +79,7 @@ and open the template in the editor.
         </footer>
         <script src="js/jquery-1.12.4.js"></script>
         <script src="js/bootstrap.js"></script>
-        <script src="js/movie_2.js"></script>
+        <script src="js/moviecharts.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     </body>
 </html>
