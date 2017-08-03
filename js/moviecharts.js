@@ -37,7 +37,7 @@ function createCharts01() {
             bars: 'vertical', // Required for Material Bar Charts.
             hAxis: {format: 'decimal'},
             height: data.getNumberOfRows() * 80,
-            width: '100%'
+            width: 1000
         };
         var chart = new google.charts.Bar(document.getElementById('chart01'));
         chart.draw(data, google.charts.Bar.convertOptions(options));
