@@ -67,10 +67,10 @@ function createCharts01() {
 
     }
 
-   $(window).resize(function () {
-        /*drawRevenuePerTheatreChart();*/
+   /*$(window).resize(function () {
+        drawRevenuePerTheatreChart();
         drawMovieBookingChart();
-    });
+    });*/
 
 }
 
